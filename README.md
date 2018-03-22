@@ -6,7 +6,7 @@ Put in path and then configure ~/.docker/config.yml to use it:
 
     {
       "auths": {
-	"registry.example.com": {}
+        "registry.example.com": {}
       },
       "credHelpers": {
         "registry.example.com": "docker_credhelper.py"
